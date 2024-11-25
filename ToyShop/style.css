@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: rgb(61, 60, 60);
+  }
+  #home,#contact,#products,#cart{
+    font-size:large;
+  }
+  header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:rgb(41, 40, 40);
+    font-size: large;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toy-container,.product-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .product {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+  .product a{
+    text-decoration: none;
+    color: black;
+  }
+  .product img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+  .num {
+    margin-top: 300px;
+}
+  .num a{
+    text-decoration: none;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  form button:hover {
+    background-color:pink;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(185, 239, 245);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  h1:hover{
+    color:white;
+  }
+  header:hover{
+    background-color:pink;
+  }
+  .cart-item {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
